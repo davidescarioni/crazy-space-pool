@@ -1,0 +1,16 @@
+{
+  "startMenu": {
+    "start": "Play",
+    "continue": "Load",
+    "settings": "Options",
+    "exit": "Exit",
+    "fullscreen": "Fullscreen",
+    "language": "Language",
+    "music-volume": "Music volume: {0}",
+    "sfx-volume": "SFX volume: {0}",
+    "back": "Back"
+  },
+  "HUD": {
+    "x-input": "X input value"
+  }
+}
