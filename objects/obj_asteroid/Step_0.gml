@@ -1,6 +1,16 @@
 if place_meeting(x, y, obj_black_hole) {
-	// TODO
-	instance_destroy();
+	if place_meeting(x, y, obj_black_hole) {
+		if (sprite_index == spr_last_asteroid) {
+			if (instance_number(obj_asteroid) == 1) {
+				obj_game_manager.status = GAME_STATUS.WIN;
+			} else {
+				obj_game_manager.status = GAME_STATUS.GAME_OVER;
+			}
+			instance_destroy()
+		} else {
+			instance_destroy();
+		}
+	}
 }
 
 if (place_meeting(x, y, obj_gravity)) {

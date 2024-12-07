@@ -22,7 +22,7 @@ if (input_check_pressed(ACTION.CONFIRM)) {
 		case 0:
 			switch (pos) {
 				case 0:
-					room_goto_next();
+					room_goto(rm_game_1);
 					audio_play_sound(snd_menu_ok, 1, false)
 					break;
 				case 1:
