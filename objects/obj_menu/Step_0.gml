@@ -22,8 +22,10 @@ if (input_check_pressed(ACTION.CONFIRM)) {
 		case 0:
 			switch (pos) {
 				case 0:
-					room_goto(rm_game_1);
-					audio_play_sound(snd_menu_ok, 1, false)
+					if !instance_exists(obj_mover) {
+						instance_create_layer(x, y, "Controllers", obj_mover)
+						audio_play_sound(snd_menu_ok, 1, false)
+					}
 					break;
 				case 1:
 					menu_level = 1;

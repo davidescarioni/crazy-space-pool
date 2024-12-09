@@ -1,0 +1,1 @@
+transition_start(target, seq_fade_close_diagonal, seq_fade_open_diagonal)

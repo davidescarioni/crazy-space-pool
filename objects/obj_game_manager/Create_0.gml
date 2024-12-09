@@ -8,6 +8,10 @@ enum GAME_STATUS {
 }
 
 status = GAME_STATUS.WAIT;
+is_changing_room = false;
+is_changing_time = 180;
+is_restarting = false;
+is_restarting_time = 120;
 
 start_text = "Ready?";
 alarm[0] = 60;
