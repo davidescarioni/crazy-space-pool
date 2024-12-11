@@ -2,8 +2,9 @@
 enum ACTION {
 	UP,
 	DOWN,
-    JUMP,
-    SHOOT,
+	LEFT,
+	RIGHT,
+    DASH,
     MOVE_HORIZONTAL,
 	MOVE_VERTICAL,
 	CONFIRM,
@@ -33,19 +34,41 @@ bindings = [
         ],
 	    "gamepad_id": 0,
     },
-    {
-        "id": ACTION.JUMP,
+	{
+        "id": ACTION.LEFT,
         "keyboard": [
-            vk_space,
-            vk_up,
+			vk_left, 
+             ord("A")
         ],
-        "gamepad": [
-            gp_face1
+		"gamepad": [
+            gp_padl
         ],
-        "gamepad_id": 0,
+	    "gamepad_id": 0,
+    },
+	{
+        "id": ACTION.RIGHT,
+        "keyboard": [
+			vk_right, 
+             ord("D")
+        ],
+		"gamepad": [
+            gp_padr
+        ],
+	    "gamepad_id": 0,
     },
 	{
         "id": ACTION.CONFIRM,
+		"keyboard": [
+            ord("Z"),
+			vk_enter
+        ],
+		"gamepad": [
+            gp_face1,
+        ],
+		"gamepad_id": 0,
+    },
+	{
+        "id": ACTION.DASH,
 		"keyboard": [
             ord("Z"),
 			vk_enter

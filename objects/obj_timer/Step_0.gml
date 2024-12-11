@@ -1,4 +1,8 @@
-milliseconds += delta_time / 1000
+if (!instance_exists(obj_game_manager)) exit;
+// Increase time only if we are in game and in a playable state
+if (room == rm_menu) instance_destroy();
+if (obj_game_manager.status == GAME_STATUS.PLAY) milliseconds += delta_time / 1000
+
 
 if milliseconds > 999 {
 	seconds+=1;

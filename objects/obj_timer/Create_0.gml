@@ -7,5 +7,5 @@ seconds_label = "00";
 minutes_label = "00";
 
 // Position
-xx = room_width / 2;
-yy = room_height / 2;
+xx = camera_get_view_width(view_camera[0]);
+yy = 30;

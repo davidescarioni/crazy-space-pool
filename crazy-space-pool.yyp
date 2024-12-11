@@ -59,6 +59,7 @@
     {"id":{"name":"obj_parent_solid","path":"objects/obj_parent_solid/obj_parent_solid.yy",},},
     {"id":{"name":"obj_planet","path":"objects/obj_planet/obj_planet.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_save_name","path":"objects/obj_save_name/obj_save_name.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"rm_game_1","path":"rooms/rm_game_1/rm_game_1.yy",},},
     {"id":{"name":"rm_game_2","path":"rooms/rm_game_2/rm_game_2.yy",},},
@@ -66,6 +67,7 @@
     {"id":{"name":"rm_game_test","path":"rooms/rm_game_test/rm_game_test.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"id":{"name":"rm_name","path":"rooms/rm_name/rm_name.yy",},},
     {"id":{"name":"rm_sequences_1","path":"rooms/rm_sequences_1/rm_sequences_1.yy",},},
     {"id":{"name":"rm_sequences_2","path":"rooms/rm_sequences_2/rm_sequences_2.yy",},},
     {"id":{"name":"rm_timer","path":"rooms/rm_timer/rm_timer.yy",},},
@@ -106,6 +108,7 @@
     {"roomId":{"name":"rm_game_3","path":"rooms/rm_game_3/rm_game_3.yy",},},
     {"roomId":{"name":"rm_sequences_1","path":"rooms/rm_sequences_1/rm_sequences_1.yy",},},
     {"roomId":{"name":"rm_sequences_2","path":"rooms/rm_sequences_2/rm_sequences_2.yy",},},
+    {"roomId":{"name":"rm_name","path":"rooms/rm_name/rm_name.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

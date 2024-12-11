@@ -1,3 +1,5 @@
+if (room == rm_game_1) instance_create_layer(x, y, "Controllers", obj_timer);
+
 ball_counter = instance_number(obj_asteroid);
 
 enum GAME_STATUS {
