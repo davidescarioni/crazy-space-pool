@@ -16,3 +16,5 @@ if (inst != noone) {
 	x = inst.x;
 	y = inst.y;
 }
+
+rot += 1;

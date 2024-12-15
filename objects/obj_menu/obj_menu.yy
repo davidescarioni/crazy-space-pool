@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_menu_background",
-    "path":"sprites/spr_menu_background/spr_menu_background.yy",
+    "name":"spr_failed_menu",
+    "path":"sprites/spr_failed_menu/spr_failed_menu.yy",
   },
   "spriteMaskId":null,
   "visible":true,

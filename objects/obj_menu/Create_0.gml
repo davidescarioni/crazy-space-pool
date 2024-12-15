@@ -1,7 +1,7 @@
 width = 75; // Start value, it resizes in Draw
 height = 104; // Start value, it resizes in Draw
 
-padding = 8;
+padding = 20;
 gap = 16;
 
 pos = 0;

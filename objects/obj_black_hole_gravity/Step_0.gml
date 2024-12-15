@@ -9,3 +9,5 @@ if (_object_in_field != noone) {
 		physics_apply_force(x, y, _force_strength * _force_vector_x, _force_strength * _force_vector_y)
 	}
 }
+
+angle += 5;

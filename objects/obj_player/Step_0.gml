@@ -19,4 +19,5 @@ if (keyboard_check(vk_right)) physics_apply_impulse(x, y, _total_speed, 0)
 if place_meeting(x, y, obj_black_hole) {
 	obj_game_manager.status = GAME_STATUS.GAME_OVER;
 	instance_destroy();
+	audio_play_sound(snd_death, 1, false)
 }
