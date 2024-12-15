@@ -1,7 +1,7 @@
 var _object_in_field = instance_place(x, y, obj_player);
 
 if (_object_in_field != noone) {
-	var _force_strength = 400;
+	var _force_strength = 1000;
 	var _force_vector_x = sign(_object_in_field.x - x);
 	var _force_vector_y = sign(_object_in_field.y - y);
 	

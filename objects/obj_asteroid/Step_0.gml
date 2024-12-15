@@ -37,7 +37,7 @@ if (place_meeting(x, y, obj_black_hole_gravity)) {
 
 if (place_meeting(x, y, obj_gravity_explode)) {
 	var _inst = instance_place(x, y, obj_gravity_explode);
-	var _force_strength = 400;
+	var _force_strength = 1000;
 	var _force_vector_x = sign(x - _inst.x);
 	var _force_vector_y = sign(y - _inst.y);
 	
