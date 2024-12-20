@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_title_screen",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":27.454695,
+  "name":"snd_title_screen",
+  "parent":{
+    "name":"crazy-space-pool",
+    "path":"crazy-space-pool.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_title_screen.mp3",
+  "type":0,
+  "volume":0.5,
+}

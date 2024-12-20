@@ -11,4 +11,4 @@ instance_create_layer(0, 0, "Controllers", obj_input_manager);
 // Init audio manager
 instance_create_layer(0, 0, "Controllers", obj_audio_manager);
 
-room_goto(rm_rules)
+instance_create_layer(x, y, "Controllers", obj_mover, {target: rm_title_screen})
